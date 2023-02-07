@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="eng">
+  <head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"
+    />
+    <title>Form Exercise</title>
+    <style>
+      label {
+        display: block;
+      }
+    </style>
+  </head>
+  <body>
+    <form>
+      <label for="email" >Inserisi la tua email:</label>
+      <input type="email" name="email" id="" placeholder="E-mail">
+      <br>
+      <label for="password" >Inserici la password:</label>
+      <input type="password" name="password" id="" placeholder="Password">
+      <br>
+      <label for="nome_completo" >Inserisci nome e cognome:</label>
+      <input type="text" name="nome_completo" id="" placeholder="Nome e Cognome">
+      <br>
+      <label for="nascita">Inserisci la tua data di nascita:</label>
+      <input type="date" name="nascita" id="">
+      <br>
+      <label for="phone">Inserisci il tuo numero di telefono:</label>
+      <input type="tel" name="phone" id="" placeholder="Numero di Telefono">
+      <br>
+      <label for="rate">Scegli il piano tariffario</label>
+      <select id="rate" name="payment">
+        <option value="0">Gratis</option>
+        <optgroup label="range">
+          <option value="10">10€/settimana</option>
+          <option value="50">50€/settimana</option>
+          <option value="100">100€/settimana</option>
+        </optgroup>
+      </select>
+      <label for="pro">PRO</label>
+      <input id="pro" name="pro" type="checkbox"/>
+      <br>
+      <label for="quantity">Numero carta di credito:</label>
+      <input type="text" name="" id="" minlength="16" maxlength="16">
+      <br>
+      <label for="quantity">CVC:</label>
+      <input type="text" name="" id="" minlength="3" maxlength="3">
+      <label for="scadenza">Scadenza</label>
+      <input type="month" name="scadenza" id="">
+      <label for="fatturazione">Indirizzo di fatturazione</label>
+      <input type="text" name="" id="">
+    </form>
+  </body>
+</html>
